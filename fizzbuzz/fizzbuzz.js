@@ -1,9 +1,5 @@
 'use strict';
 
-// a function should only have one responsibility
-
-
-
 /**  
  * @param {number} num
  * @returns {*}   a string or num
