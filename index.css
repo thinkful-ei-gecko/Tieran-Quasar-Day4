@@ -1,4 +1,7 @@
-
 .hidden {
-    display: none;
-  }
+  display: none;
+}
+
+.complete {
+  text-decoration: line-through;
+}
