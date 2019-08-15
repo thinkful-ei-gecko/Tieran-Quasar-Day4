@@ -3,9 +3,9 @@
 function getsHovered(){
 
   // method 2 - attach event listener to parent
-  // $('.grid').on('mouseover','.cell',event =>{
-  //   $(event.currentTarget).addClass('active');
-  // }); 
+  $('.grid').on('mouseover','.cell',event =>{
+    $(event.currentTarget).addClass('active');
+  }); 
 }
 
 function refreshGrid() {
