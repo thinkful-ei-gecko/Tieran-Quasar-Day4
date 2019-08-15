@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>jquery hello world</title>
-        <script
-          src="https://code.jquery.com/jquery-3.2.1.min.js"
-          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-          crossorigin="anonymous"></script>
-        <link href="index.css" rel="stylesheet" type="text/css" />
+        <title>cat carousel drill</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-      <div class='hidden js-parent-demo'>
-        <ul class='js-to-dos'>
-          <li class="js-complete">Buy milk</li>
-          <li>mail rent check</li>
-          <li>write great american novel</li>
-        </ul>
-      </div>
+      <main role="main">
+        <h1>Image Carousel</h1>
+        <div class="hero">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-65/cat1.jpg" alt="An orange-eyed grey cat stretches toward the camera."/>
+        </div>
+        <div class="thumbnails">
+          <input type="image" class="thumbnail" href="#" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-65/cat1.jpg" alt="An orange-eyed grey cat stretches toward the camera."/>
+          <input type="image" class="thumbnail" href="#" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-65/cat2.jpg" alt="Closeup of a blue-eyed, grey cat with markings."/>
+          <input type="image" class="thumbnail" href="#" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-65/cat3.jpg" alt="An orange cat licks its paw."/>
+          <input type="image" class="thumbnail" href="#" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-65/cat4.jpg" alt="A content brown cat lounges with eyes closed."/>
+        </div>
+      </main>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="index.js"></script>
     </body>
 </html>
