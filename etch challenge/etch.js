@@ -1,16 +1,15 @@
 'use strict';
 
-// Add Event Listeners here:
 function getsHovered(){
 
-  // method 2 - hover
-  $('.grid').on('mouseover','.cell',event =>{
-    $(event.currentTarget).addClass('active');
-  }); 
+  // method 2 - attach event listener to parent
+  // $('.grid').on('mouseover','.cell',event =>{
+  //   $(event.currentTarget).addClass('active');
+  // }); 
 }
 
 function refreshGrid() {
-  // method 2 - click button
+  // click button
   $('.controls').on('click', 'button', event => {
     createAndPlaceRows(8);
   });
@@ -19,7 +18,7 @@ function refreshGrid() {
 // When DOM is ready:
 $(() => {
   createAndPlaceRows(8);
-  
+
   getsHovered();
   refreshGrid();
 });
